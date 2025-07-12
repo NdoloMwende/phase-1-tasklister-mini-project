@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit",(e)=>{
   e.preventDefault();
-  buildList(document.querySelector("#new-task-description").value);
+  buildList(input.value);
 
   form.reset();
 });
